@@ -1,9 +1,13 @@
-import React, { useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { withTranslation } from 'react-i18next';
 
-const login = () => {
+const login = ({ t }) => {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
+
+  const onSubmit = () => {
+    console.log('submitting...');
+  } 
 
   return (
     <div className="login-container">

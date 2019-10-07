@@ -1,7 +1,7 @@
 
 # Talent Software
 ## Description
-React test app for using tranlation HOC with React Hooks.
+React test app for using translation HOC with React Hooks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
