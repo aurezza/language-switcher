@@ -1,5 +1,5 @@
 
-# Talent Software
+# Language Switcher
 ## Description
 React test app for using translation HOC with React Hooks.
 
