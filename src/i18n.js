@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+// import LanguageDetector from 'i18next-browser-languagedetector';
 import locales from './constants/Locale';
 
 const resources = locales.reduce((acc, cur) => ({
@@ -12,7 +12,7 @@ const resources = locales.reduce((acc, cur) => ({
 
 i18n
   .use(initReactI18next)
-  .use(LanguageDetector) // passes i18n down to react-i18next
+  // .use(LanguageDetector) // passes i18n down to react-i18next
   .init({
     resources,
     fallbackLng: 'en',

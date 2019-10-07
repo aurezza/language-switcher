@@ -13,11 +13,11 @@ const login = ({ t }) => {
     <div className="login-container">
       <form onSubmit={onSubmit}>
         <div className="form">
-          <p>{t('Log In')}</p>
+          <p>{t('Login')}</p>
           <div className="input">
             <input
               type="text"
-              placeholder="username"
+              placeholder={t("Username")}
               defaultValue={userName}
               onInput={({ target }) => setUserName(target.value)}
             />
